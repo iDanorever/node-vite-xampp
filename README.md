@@ -12,18 +12,19 @@ El proyecto empezó con una estructura algo desordenada, mezclando archivos de V
 **Solución:**  
 Limpié la estructura, separé claramente el backend (`/backend`) del frontend (`/frontend`) y actualicé el comando a:
 
-```bash
-npx shadcn@latest add```
+```bash```
+```npx shadcn@latest add```
 
-
----
-
-# 🗄️ Conexión con la Base de Datos MySQL
+🗄️ Conexión con la Base de Datos MySQL
 Desafío:
-El mayor problema fue conectar el backend a MySQL. XAMPP usaba un puerto de 3006 y no abria el phpMyADdmi , y la base de datos inicial softtech_db no existía.
+El mayor problema fue conectar el backend a MySQL. XAMPP usaba el puerto 3307 en lugar del estándar 3306, lo que impedía que el servidor se conectara correctamente. Además, la base de datos inicial softtech_db no existía y phpMyAdmin no respondía.
 
 Solución:
-Investigué la configuración de XAMPP, ajusté el puerto en el código de conexión y creé la base de datos softtech_db con sus tablas (vacantes, empresas, usuarios) directamente desde la terminal de MySQL para solucionarlo rápidamente.
+Investigué la configuración de XAMPP, ajusté el puerto en el código de conexión y creé la base de datos softtech_db con sus tablas (vacantes, empresas, usuarios) directamente desde la terminal de MySQL, evitando así la dependencia de phpMyAdmin.
 
----
 
+📦 Manejo de Módulos en Node.js
+Desafío:
+El servidor fallaba al iniciar con un error:
+
+```ReferenceError: require is not defined```

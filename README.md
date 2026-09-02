@@ -17,12 +17,14 @@ npx shadcn@latest add
 
 ```
 
+
 # 🗄️ Conexión con la Base de Datos MySQL
 **Desafío:**
 El mayor problema fue conectar el backend a MySQL. XAMPP usaba el puerto ```3307``` en lugar del estándar ```3306```, lo que impedía que el servidor se conectara correctamente. Además, la base de datos inicial ```softtech_db``` no existía y phpMyAdmin no respondía.
 
 **Solución:**
 Investigué la configuración de XAMPP, ajusté el puerto en el código de conexión y creé la base de datos ```softtech_db``` con sus tablas (```vacantes, empresas, usuarios```) directamente desde la terminal de MySQL, evitando así la dependencia de phpMyAdmin.
+
 
 # 📦 Manejo de Módulos en Node.js
 **Desafío:**
@@ -35,6 +37,7 @@ Esto se debía a que el ```package.json``` tenía ```"type": "module"```, forzan
 
 **Solución:**
 Eliminé la línea ```"type": "module"``` del ```package.json``` para que Node.js tratara el archivo como CommonJS, lo que permitió que el servidor arrancara sin problemas.
+
 
 
 
@@ -51,3 +54,25 @@ por:
 ```
 React.ButtonHTMLAttributes<HTMLButtonElement>
 ```
+y ajustando el tipado de ```setOpen```.
+
+# 🎨 Mejora de la Experiencia de Usuario (UI/UX)
+**Mejora 1:**
+Para que la aplicación se viera más profesional, integré un ```Sidebar``` navegable en todas las páginas, permitiendo acceder fácilmente a las diferentes secciones como el Dashboard, la Bolsa de Trabajo o el Perfil.
+
+**Mejora 2:**
+Añadí funcionalidades clave como un sistema de login con redirección y un botón de **"Cerrar sesión"** en el Sidebar, mejorando el flujo de navegación y la experiencia general del usuario.
+
+|Nota: Todos los comandos, rutas y nombres de archivos están resaltados con el formato de código para facilitar su lectura.
+
+
+---
+
+### ✅ ¿Cómo copiarlo correctamente?
+
+1.  **Selecciona todo el texto** desde el `# ⚙️ Principales Desafíos...` hasta el final (incluyendo los bloques de código).
+2.  **Cópialo** (`Ctrl+C` o `Cmd+C`).
+3.  **Pégalo en tu archivo `README.md`** asegurándote de que estás en la vista de **edición de texto** (no en la vista previa). Si usas GitHub, edita el archivo y pega el contenido en el editor de texto.
+4.  **Guarda los cambios** y haz commit.
+
+Con esto, el Markdown se renderizará correctamente y se verá como el ejemplo que te mostré antes.

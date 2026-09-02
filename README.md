@@ -13,7 +13,9 @@ El proyecto empezó con una estructura algo desordenada, mezclando archivos de V
 Limpié la estructura, separé claramente el backend (`/backend`) del frontend (`/frontend`) y actualicé el comando a:
 
 ```bash
-npx shadcn@latest add```
+npx shadcn@latest add
+
+```
 
 🗄️ Conexión con la Base de Datos MySQL
 Desafío:

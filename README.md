@@ -15,6 +15,7 @@ Limpié la estructura, separé claramente el backend (`/backend`) del frontend (
 ```bash
 npx shadcn@latest add```
 
+
 ---
 
 # 🗄️ Conexión con la Base de Datos MySQL

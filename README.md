@@ -65,6 +65,6 @@ Para que la aplicación se viera más profesional, integré un ```Sidebar``` nav
 **Mejora 2:**
 Añadí funcionalidades clave como un sistema de login con redirección y un botón de **"Cerrar sesión"** en el Sidebar, mejorando el flujo de navegación y la experiencia general del usuario.
 
-||
-Nota: Todos los comandos, rutas y nombres de archivos están resaltados con el formato de código para facilitar su lectura.
-||
+|Nota: Todos los comandos, rutas y nombres de archivos están resaltados con el formato de código para facilitar su lectura.
+|
+|

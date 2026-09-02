@@ -65,16 +65,4 @@ Para que la aplicación se viera más profesional, integré un ```Sidebar``` nav
 **Mejora 2:**
 Añadí funcionalidades clave como un sistema de login con redirección y un botón de **"Cerrar sesión"** en el Sidebar, mejorando el flujo de navegación y la experiencia general del usuario.
 
-|Nota: Todos los comandos, rutas y nombres de archivos están resaltados con el formato de código para facilitar su lectura.
-|
-
----
-
-### ✅ ¿Cómo copiarlo correctamente?
-
-1.  **Selecciona todo el texto** desde el `# ⚙️ Principales Desafíos...` hasta el final (incluyendo los bloques de código).
-2.  **Cópialo** (`Ctrl+C` o `Cmd+C`).
-3.  **Pégalo en tu archivo `README.md`** asegurándote de que estás en la vista de **edición de texto** (no en la vista previa). Si usas GitHub, edita el archivo y pega el contenido en el editor de texto.
-4.  **Guarda los cambios** y haz commit.
-
-Con esto, el Markdown se renderizará correctamente y se verá como el ejemplo que te mostré antes.
+|Nota: Todos los comandos, rutas y nombres de archivos están resaltados con el formato de código para facilitar su lectura.|

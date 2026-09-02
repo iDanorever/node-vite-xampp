@@ -65,3 +65,17 @@ Para que la aplicación se viera más profesional, integré un ```Sidebar``` nav
 **Mejora 2:**
 Añadí funcionalidades clave como un sistema de login con redirección y un botón de **"Cerrar sesión"** en el Sidebar, mejorando el flujo de navegación y la experiencia general del usuario.
 
+---
+
+# 📕 DATOS Y MAS
+
+**videos de apoyo**:
+este trabajo e realizado con apoyo de algunos videos que lograron acabar hasta aqui que son:
+- https://youtube.com/playlist?list=PLUofhDIg_38qm2oPOV-IRTTEKyrVBBaU7&si=YMILrzJJphYhvyg8 - Curso de Node.JS Completo Desde Cero 
+- https://youtu.be/3dSkc-DIM74?si=v13pic50cOAj21My - Node.js MySQL REST API
+- https://youtu.be/cyxSPidS2so?si=40YlyIH5gQKOrK2Y - Servidor API REST con Node.js
+- https://youtu.be/1hpc70_OoAg?si=HFoqYymi39F4LRoG - Aprende Node.js y Express
+- https://youtu.be/JmJ1WUoUIK4?si=eNEQJuXgw7oWWWsi - Express Framework de Nodejs, Curso para principiantes
+- https://www.youtube.com/live/2jxc8DMzt0I?si=mI_LJDlWMOsATWP3 - Curso de Next.js
+- https://youtu.be/jMy4pVZMyLM?si=X_0QHXe3IHsrMUTC - aprendiendo next.js para principiante paso a paso
+- https://youtu.be/JmJ1WUoUIK4?si=5Vcu68oQDAL6qqtB - Express Framework de Nodejs, Curso para principiantes

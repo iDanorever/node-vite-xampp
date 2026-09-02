@@ -24,13 +24,12 @@ El mayor problema fue conectar el backend a MySQL. XAMPP usaba el puerto ```3307
 **Solución:**
 Investigué la configuración de XAMPP, ajusté el puerto en el código de conexión y creé la base de datos ```softtech_db``` con sus tablas (```vacantes, empresas, usuarios```) directamente desde la terminal de MySQL, evitando así la dependencia de phpMyAdmin.
 
-
-
 # 📦 Manejo de Módulos en Node.js
 **Desafío:**
 El servidor fallaba al iniciar con un error:
 
-```ReferenceError: require is not defined
+```
+ReferenceError: require is not defined
 ```
 Esto se debía a que el ```package.json``` tenía ```"type": "module"```, forzando el uso de ```import```, mientras que el código usaba ```require```.
 
@@ -45,8 +44,10 @@ La implementación del Sidebar con ```shadcn/ui``` generaba múltiples errores d
 
 **Solución:**
 Tras varias iteraciones, simplifiqué el componente ```app-sidebar.tsx``` para no usar ```asChild``` y corregí los tipos en ```sidebar.tsx```, por ejemplo, cambiando:
-```React.ComponentProps<"button">
+```
+React.ComponentProps<"button">
 ```
 por:
-```React.ButtonHTMLAttributes<HTMLButtonElement>
+```
+React.ButtonHTMLAttributes<HTMLButtonElement>
 ```

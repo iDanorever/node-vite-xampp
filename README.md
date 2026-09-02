@@ -56,6 +56,8 @@ React.ButtonHTMLAttributes<HTMLButtonElement>
 ```
 y ajustando el tipado de ```setOpen```.
 
+
+
 # 🎨 Mejora de la Experiencia de Usuario (UI/UX)
 **Mejora 1:**
 Para que la aplicación se viera más profesional, integré un ```Sidebar``` navegable en todas las páginas, permitiendo acceder fácilmente a las diferentes secciones como el Dashboard, la Bolsa de Trabajo o el Perfil.
@@ -64,8 +66,8 @@ Para que la aplicación se viera más profesional, integré un ```Sidebar``` nav
 Añadí funcionalidades clave como un sistema de login con redirección y un botón de **"Cerrar sesión"** en el Sidebar, mejorando el flujo de navegación y la experiencia general del usuario.
 
 |Nota: Todos los comandos, rutas y nombres de archivos están resaltados con el formato de código para facilitar su lectura.
-
-
+|
+|
 ---
 
 ### ✅ ¿Cómo copiarlo correctamente?

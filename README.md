@@ -67,7 +67,7 @@ Añadí funcionalidades clave como un sistema de login con redirección y un bot
 
 |Nota: Todos los comandos, rutas y nombres de archivos están resaltados con el formato de código para facilitar su lectura.
 |
-|
+
 ---
 
 ### ✅ ¿Cómo copiarlo correctamente?

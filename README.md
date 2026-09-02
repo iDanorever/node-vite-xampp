@@ -15,4 +15,14 @@ Limpié la estructura, separé claramente el backend (`/backend`) del frontend (
 ```bash
 npx shadcn@latest add
 
-----------------------------------------------------------------------------------
+---
+
+# 🗄️ Conexión con la Base de Datos MySQL
+Desafío:
+El mayor problema fue conectar el backend a MySQL. XAMPP usaba un puerto de 3006 y no abria el phpMyADdmi , y la base de datos inicial softtech_db no existía.
+
+Solución:
+Investigué la configuración de XAMPP, ajusté el puerto en el código de conexión y creé la base de datos softtech_db con sus tablas (vacantes, empresas, usuarios) directamente desde la terminal de MySQL para solucionarlo rápidamente.
+
+---
+
